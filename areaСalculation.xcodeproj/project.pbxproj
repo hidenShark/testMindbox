@@ -7,26 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8078A2EE2B7B202300C033A7 /* area_alculationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8078A2ED2B7B202300C033A7 /* area_alculationTests.swift */; };
 		80956E1A2B79878D002D852F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80956E192B79878D002D852F /* AppDelegate.swift */; };
 		80956E1C2B79878D002D852F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80956E1B2B79878D002D852F /* SceneDelegate.swift */; };
 		80956E1E2B79878D002D852F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80956E1D2B79878D002D852F /* ViewController.swift */; };
 		80956E212B79878D002D852F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80956E1F2B79878D002D852F /* Main.storyboard */; };
 		80956E232B798792002D852F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80956E222B798792002D852F /* Assets.xcassets */; };
 		80956E262B798792002D852F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80956E242B798792002D852F /* LaunchScreen.storyboard */; };
-		80956E312B798793002D852F /* area_alculationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80956E302B798793002D852F /* area_alculationTests.swift */; };
-		80956E3B2B798793002D852F /* area_alculationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80956E3A2B798793002D852F /* area_alculationUITests.swift */; };
-		80956E3D2B798793002D852F /* area_alculationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80956E3C2B798793002D852F /* area_alculationUITestsLaunchTests.swift */; };
+		80956E4A2B799412002D852F /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80956E492B799411002D852F /* CircleViewController.swift */; };
+		80956E4C2B7994D6002D852F /* TriangleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80956E4B2B7994D6002D852F /* TriangleViewController.swift */; };
+		80956E4E2B79B75F002D852F /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80956E4D2B79B75E002D852F /* Circle.swift */; };
+		80956E502B7AFF2C002D852F /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80956E4F2B7AFF2B002D852F /* Triangle.swift */; };
+		80956E522B7AFFBA002D852F /* Figure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80956E512B7AFFBA002D852F /* Figure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		80956E2D2B798793002D852F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80956E0E2B79878D002D852F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80956E152B79878D002D852F;
-			remoteInfo = "areaСalculation";
-		};
-		80956E372B798793002D852F /* PBXContainerItemProxy */ = {
+		8078A2EF2B7B202300C033A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 80956E0E2B79878D002D852F /* Project object */;
 			proxyType = 1;
@@ -36,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8078A2EB2B7B202300C033A7 /* areaСalculationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "areaСalculationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8078A2ED2B7B202300C033A7 /* area_alculationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = area_alculationTests.swift; sourceTree = "<group>"; };
 		80956E162B79878D002D852F /* areaСalculation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "areaСalculation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80956E192B79878D002D852F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80956E1B2B79878D002D852F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,29 +42,22 @@
 		80956E222B798792002D852F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80956E252B798792002D852F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80956E272B798792002D852F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80956E2C2B798793002D852F /* areaСalculationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "areaСalculationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80956E302B798793002D852F /* area_alculationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = area_alculationTests.swift; sourceTree = "<group>"; };
-		80956E362B798793002D852F /* areaСalculationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "areaСalculationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80956E3A2B798793002D852F /* area_alculationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = area_alculationUITests.swift; sourceTree = "<group>"; };
-		80956E3C2B798793002D852F /* area_alculationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = area_alculationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80956E492B799411002D852F /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
+		80956E4B2B7994D6002D852F /* TriangleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleViewController.swift; sourceTree = "<group>"; };
+		80956E4D2B79B75E002D852F /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		80956E4F2B7AFF2B002D852F /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		80956E512B7AFFBA002D852F /* Figure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Figure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8078A2E82B7B202300C033A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80956E132B79878D002D852F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80956E292B798793002D852F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80956E332B798793002D852F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,12 +67,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8078A2DC2B7B160600C033A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80956E1F2B79878D002D852F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8078A2DD2B7B161400C033A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80956E512B7AFFBA002D852F /* Figure.swift */,
+				80956E4D2B79B75E002D852F /* Circle.swift */,
+				80956E4F2B7AFF2B002D852F /* Triangle.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8078A2DE2B7B162400C033A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				80956E1D2B79878D002D852F /* ViewController.swift */,
+				80956E492B799411002D852F /* CircleViewController.swift */,
+				80956E4B2B7994D6002D852F /* TriangleViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8078A2EC2B7B202300C033A7 /* areaСalculationTests */ = {
+			isa = PBXGroup;
+			children = (
+				8078A2ED2B7B202300C033A7 /* area_alculationTests.swift */,
+			);
+			path = "areaСalculationTests";
+			sourceTree = "<group>";
+		};
 		80956E0D2B79878D002D852F = {
 			isa = PBXGroup;
 			children = (
 				80956E182B79878D002D852F /* areaСalculation */,
-				80956E2F2B798793002D852F /* areaСalculationTests */,
-				80956E392B798793002D852F /* areaСalculationUITests */,
+				8078A2EC2B7B202300C033A7 /* areaСalculationTests */,
 				80956E172B79878D002D852F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				80956E162B79878D002D852F /* areaСalculation.app */,
-				80956E2C2B798793002D852F /* areaСalculationTests.xctest */,
-				80956E362B798793002D852F /* areaСalculationUITests.xctest */,
+				8078A2EB2B7B202300C033A7 /* areaСalculationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,8 +126,9 @@
 			children = (
 				80956E192B79878D002D852F /* AppDelegate.swift */,
 				80956E1B2B79878D002D852F /* SceneDelegate.swift */,
-				80956E1D2B79878D002D852F /* ViewController.swift */,
-				80956E1F2B79878D002D852F /* Main.storyboard */,
+				8078A2DD2B7B161400C033A7 /* Model */,
+				8078A2DC2B7B160600C033A7 /* View */,
+				8078A2DE2B7B162400C033A7 /* Controller */,
 				80956E222B798792002D852F /* Assets.xcassets */,
 				80956E242B798792002D852F /* LaunchScreen.storyboard */,
 				80956E272B798792002D852F /* Info.plist */,
@@ -110,26 +136,27 @@
 			path = "areaСalculation";
 			sourceTree = "<group>";
 		};
-		80956E2F2B798793002D852F /* areaСalculationTests */ = {
-			isa = PBXGroup;
-			children = (
-				80956E302B798793002D852F /* area_alculationTests.swift */,
-			);
-			path = "areaСalculationTests";
-			sourceTree = "<group>";
-		};
-		80956E392B798793002D852F /* areaСalculationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				80956E3A2B798793002D852F /* area_alculationUITests.swift */,
-				80956E3C2B798793002D852F /* area_alculationUITestsLaunchTests.swift */,
-			);
-			path = "areaСalculationUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8078A2EA2B7B202300C033A7 /* areaСalculationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8078A2F12B7B202300C033A7 /* Build configuration list for PBXNativeTarget "areaСalculationTests" */;
+			buildPhases = (
+				8078A2E72B7B202300C033A7 /* Sources */,
+				8078A2E82B7B202300C033A7 /* Frameworks */,
+				8078A2E92B7B202300C033A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8078A2F02B7B202300C033A7 /* PBXTargetDependency */,
+			);
+			name = "areaСalculationTests";
+			productName = "areaСalculationTests";
+			productReference = 8078A2EB2B7B202300C033A7 /* areaСalculationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		80956E152B79878D002D852F /* areaСalculation */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80956E402B798793002D852F /* Build configuration list for PBXNativeTarget "areaСalculation" */;
@@ -147,42 +174,6 @@
 			productReference = 80956E162B79878D002D852F /* areaСalculation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		80956E2B2B798793002D852F /* areaСalculationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80956E432B798793002D852F /* Build configuration list for PBXNativeTarget "areaСalculationTests" */;
-			buildPhases = (
-				80956E282B798793002D852F /* Sources */,
-				80956E292B798793002D852F /* Frameworks */,
-				80956E2A2B798793002D852F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				80956E2E2B798793002D852F /* PBXTargetDependency */,
-			);
-			name = "areaСalculationTests";
-			productName = "areaСalculationTests";
-			productReference = 80956E2C2B798793002D852F /* areaСalculationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		80956E352B798793002D852F /* areaСalculationUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80956E462B798793002D852F /* Build configuration list for PBXNativeTarget "areaСalculationUITests" */;
-			buildPhases = (
-				80956E322B798793002D852F /* Sources */,
-				80956E332B798793002D852F /* Frameworks */,
-				80956E342B798793002D852F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				80956E382B798793002D852F /* PBXTargetDependency */,
-			);
-			name = "areaСalculationUITests";
-			productName = "areaСalculationUITests";
-			productReference = 80956E362B798793002D852F /* areaСalculationUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,16 +184,12 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					8078A2EA2B7B202300C033A7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 80956E152B79878D002D852F;
+					};
 					80956E152B79878D002D852F = {
 						CreatedOnToolsVersion = 15.0.1;
-					};
-					80956E2B2B798793002D852F = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 80956E152B79878D002D852F;
-					};
-					80956E352B798793002D852F = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 80956E152B79878D002D852F;
 					};
 				};
 			};
@@ -220,13 +207,19 @@
 			projectRoot = "";
 			targets = (
 				80956E152B79878D002D852F /* areaСalculation */,
-				80956E2B2B798793002D852F /* areaСalculationTests */,
-				80956E352B798793002D852F /* areaСalculationUITests */,
+				8078A2EA2B7B202300C033A7 /* areaСalculationTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8078A2E92B7B202300C033A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80956E142B79878D002D852F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -237,62 +230,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80956E2A2B798793002D852F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80956E342B798793002D852F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8078A2E72B7B202300C033A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8078A2EE2B7B202300C033A7 /* area_alculationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80956E122B79878D002D852F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				80956E1E2B79878D002D852F /* ViewController.swift in Sources */,
+				80956E522B7AFFBA002D852F /* Figure.swift in Sources */,
 				80956E1A2B79878D002D852F /* AppDelegate.swift in Sources */,
+				80956E4A2B799412002D852F /* CircleViewController.swift in Sources */,
+				80956E4C2B7994D6002D852F /* TriangleViewController.swift in Sources */,
 				80956E1C2B79878D002D852F /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80956E282B798793002D852F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80956E312B798793002D852F /* area_alculationTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80956E322B798793002D852F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80956E3B2B798793002D852F /* area_alculationUITests.swift in Sources */,
-				80956E3D2B798793002D852F /* area_alculationUITestsLaunchTests.swift in Sources */,
+				80956E502B7AFF2C002D852F /* Triangle.swift in Sources */,
+				80956E4E2B79B75F002D852F /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		80956E2E2B798793002D852F /* PBXTargetDependency */ = {
+		8078A2F02B7B202300C033A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 80956E152B79878D002D852F /* areaСalculation */;
-			targetProxy = 80956E2D2B798793002D852F /* PBXContainerItemProxy */;
-		};
-		80956E382B798793002D852F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80956E152B79878D002D852F /* areaСalculation */;
-			targetProxy = 80956E372B798793002D852F /* PBXContainerItemProxy */;
+			targetProxy = 8078A2EF2B7B202300C033A7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -316,6 +286,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8078A2F22B7B202300C033A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7Z7662R7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "i.Shark.area-alculationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/areaСalculation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/areaСalculation";
+			};
+			name = Debug;
+		};
+		8078A2F32B7B202300C033A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7Z7662R7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "i.Shark.area-alculationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/areaСalculation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/areaСalculation";
+			};
+			name = Release;
+		};
 		80956E3E2B798793002D852F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -491,85 +497,18 @@
 			};
 			name = Release;
 		};
-		80956E442B798793002D852F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7Z7662R7M;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "i.Shark.area-alculationTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/areaСalculation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/areaСalculation";
-			};
-			name = Debug;
-		};
-		80956E452B798793002D852F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7Z7662R7M;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "i.Shark.area-alculationTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/areaСalculation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/areaСalculation";
-			};
-			name = Release;
-		};
-		80956E472B798793002D852F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7Z7662R7M;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "i.Shark.area-alculationUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "areaСalculation";
-			};
-			name = Debug;
-		};
-		80956E482B798793002D852F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7Z7662R7M;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "i.Shark.area-alculationUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "areaСalculation";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8078A2F12B7B202300C033A7 /* Build configuration list for PBXNativeTarget "areaСalculationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8078A2F22B7B202300C033A7 /* Debug */,
+				8078A2F32B7B202300C033A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		80956E112B79878D002D852F /* Build configuration list for PBXProject "areaСalculation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -584,24 +523,6 @@
 			buildConfigurations = (
 				80956E412B798793002D852F /* Debug */,
 				80956E422B798793002D852F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		80956E432B798793002D852F /* Build configuration list for PBXNativeTarget "areaСalculationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80956E442B798793002D852F /* Debug */,
-				80956E452B798793002D852F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		80956E462B798793002D852F /* Build configuration list for PBXNativeTarget "areaСalculationUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80956E472B798793002D852F /* Debug */,
-				80956E482B798793002D852F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
